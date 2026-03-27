@@ -1,6 +1,6 @@
 # Afrika Quiz · Africa Higher / Lower
 
-I wanted to learn more about **Africa** and was looking for a **quick, playful way** to build intuition — not another dry list. This SwiftUI app is a classic **higher / lower** game on **population** and **land area** across African countries: flags, capitals, score, and high score, with a **German** UI (“Mehr / Weniger”).
+I wanted to learn more about **Africa** and was looking for a **quick, playful way** to build knowledge. This SwiftUI app is a classic **higher / lower** game on **population** and **land area** across African countries: flags, capitals, score, and high score, with a **German** UI (“Mehr / Weniger”).
 
 **SwiftUI iOS game** — guess whether the next country has a **higher or lower** value than the one you see. Modes: **Einwohnerzahl** or **Landesfläche**.
 
