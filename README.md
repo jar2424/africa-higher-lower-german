@@ -1,16 +1,18 @@
 # Afrika Quiz · Africa Higher / Lower
 
-**SwiftUI iOS game** — guess whether the next African country has a **higher or lower** population or land area. German UI (“Mehr / Weniger”), flags, capitals, score, and high score.
+I wanted to learn more about **Africa** and was looking for a **quick, playful way** to build intuition — not another dry list. This SwiftUI app is a classic **higher / lower** game on **population** and **land area** across African countries: flags, capitals, score, and high score, with a **German** UI (“Mehr / Weniger”).
+
+**SwiftUI iOS game** — guess whether the next country has a **higher or lower** value than the one you see. Modes: **Einwohnerzahl** or **Landesfläche**.
 
 <p align="center">
-  <img src="docs/readme-menu.png" alt="Main menu: choose population or area mode" width="260" />
+  <img src="docs/readme-menu.png" alt="Main menu: Afrika Quiz, choose population or area" width="260" />
   &nbsp;&nbsp;
-  <img src="docs/readme-game.png" alt="In-game: compare two countries" width="260" />
+  <img src="docs/readme-game.png" alt="In-game: Mauritania vs Burkina Faso, Mehr or Weniger" width="260" />
   &nbsp;&nbsp;
-  <img src="docs/readme-gameover.png" alt="Game over with score" width="260" />
+  <img src="docs/readme-gameover.png" alt="Game over: score and best score" width="260" />
 </p>
 
-*Illustrative mockups — layout and colors match the in-app SwiftUI theme (blue · white · rounded cards).*
+*Screenshots from the running app on iPhone.*
 
 ## What it feels like
 
@@ -63,8 +65,3 @@ Interaktive iOS-App zum Kennenlernen afrikanischer Länder im **Higher/Lower**-S
 ### System
 
 - iOS 15.0+ · Xcode 14.0+ · Swift 5.7+
-
----
-
-**Entwickelt mit ❤️ zum Lernen über Afrika**
-— Julius Rucha
