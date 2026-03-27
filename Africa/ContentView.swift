@@ -8,14 +8,32 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var gameManager = GameManager()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            // Game Tab
+            MenuView(gameManager: gameManager)
+                .tabItem {
+                    Image(systemName: "gamecontroller.fill")
+                    Text("Spiel")
+                }
+            
+            // Countries Tab
+            CountriesListView()
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Länder")
+                }
+            
+            // Info Tab
+            InfoView()
+                .tabItem {
+                    Image(systemName: "info.circle.fill")
+                    Text("Info")
+                }
         }
-        .padding()
+        .preferredColorScheme(.light)
     }
 }
 
